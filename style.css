@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+* {
+    margin: 0 auto;
+    border: 0;
+    padding: 0;
+}
+body{
+    margin:auto;
+    width: 1400px;
+}
+
+#header , #footer {
+    clear: both;
+}
+#header{
+    margin-top:62px;
+    position: relative;
+    height: 95px;
+    width: 100%;
+    background: url("linejka.png") repeat-x;
+}
+
+#content{
+    margin-left:200px;
+    position:relative;
+    float:left;
+    margin-bottom: 31px;
+}
+.content-left{
+    width: 730px;
+    position:relative;
+    float:left;
+}
+.content-right{
+    float: left;
+    width: 220px;
+    height: 850px;
+    margin-left: 20px;
+    border-top: 1px solid rgb(245,245,245);
+    background-color: rgb(234, 234, 234);
+    position:relative;
+    border-radius: 15px;
+    margin-top: 29px;
+
+}
+.first{
+    height: 684px;
+    margin-top: 29px;
+    border-top: 1px solid rgb(245,245,245);
+    width: 730px;
+    border-radius: 15px;
+    background-color: rgb(234, 234, 234);
+    float:left;
+}
+.second{
+    height: 140px;
+    margin-top: 28px;
+    border-radius: 15px;
+    background-color: rgb(234, 234, 234);
+    float:left;
+}
+.thirdleft{
+    width: 490px;
+    height: 200px;
+    margin-top: 22px;
+    border-radius: 15px;
+    background-color: rgb(234, 234, 234);
+    float:left;
+    margin-bottom: 26px;
+}
+.thirdright{
+    height:205px;
+    width: 220px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: rgb(234, 234, 234);
+    float:left;
+    margin-bottom: 23px;
+}
+.fourleft{
+    width: 250px;
+    height: 52px;
+    border-radius: 15px;
+    background-color: rgb(234, 234, 234);
+    margin-top: 1px;
+    float:left;
+}
+.fourright{
+    height: 53px;
+    width: 460px;
+    border-radius: 15px;
+    background-color: rgb(234, 234, 234);
+    float:left;
+    margin-left: 20px;
+}
+.dark1{
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.darknav{
+    height: 56px;
+    border-radius: 15px;
+    background-color: rgb(141,141,141);
+    margin-top: 20px;
+}
+.darknav2{
+    height: 56px;
+    border-radius: 15px;
+    background-color: rgb(141, 141, 141);
+    margin-top: 14px;
+}
+.darkmenu{
+    height: 114px;
+    width: 71px;
+    border-radius: 15px;
+    background-color: rgb(141, 141, 141);
+    margin-top: 19px;
+    float:left;
+    margin-left: 5px;
+}
+.darkmenu2{
+    height: 114px;
+    width: 71px;
+    border-radius: 15px;
+    background-color: rgb(141, 141, 141);
+    margin-top: 19px;
+    margin-left: 29px;
+    float:left;
+}
+
+#footer{
+    height: 378px;
+    width:100%;
+
+}
+#lightfooter{
+    height: 303px;
+    background-color: rgb(248, 248, 248);
+}
+#darkfooter{
+    height: 73px;
+    border-bottom: 1px solid rgb(225, 225, 225);
+    border-top: 1px solid rgb(225, 225, 225);
+    background-color: rgb(239,239,239);
+}
